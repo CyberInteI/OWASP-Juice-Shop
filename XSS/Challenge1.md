@@ -6,7 +6,7 @@ DOM-based XSS vulnerabilities usually arise when JavaScript takes data from an a
 To solve this challenge firstly we need to look for input field. And the most common input files in website is 'Searchbar'.  
 We'll input the DOM-based-XSS payload in searchbar.  
 Payload:- <iframe src="javascript:alert(`xss`)">X --> Hit Enter.
-![My Images](Images/DOMSolve.png)
+![My Images](Images/DOMSolve.png)  
 
 Congratulations..........  
 our first Challenge is Solved.
