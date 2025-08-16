@@ -26,4 +26,9 @@ To find Score-Board page, We'll look the Keyword 'Score' in every file of websit
 
 Open Developer option in FireFox --> Go to Debugger.  
 
-![My Images]
+![My Images](Images/Score-Board.png)
+
+In Main.js file looke for 'Score' keyword and you'll find 'routerLink","/score-board'  
+Now we know the path to the scoreboard. We can use it as a URL parameter to find the hidden scoreboard in the OWASP Juice Shop.  
+
+http:localhost:3000/#/score-board  
