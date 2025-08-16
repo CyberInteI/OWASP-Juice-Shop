@@ -18,5 +18,5 @@ sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
 Step 4: Access in Browser
 http://localhost:3000
 
-Once Done! Be ready to dive into the real life web vulnerability chanllenges.....
+Once Done! Be ready to dive into the real life web vulnerability chanllenges
 You'll find all challenges category wise in this repository.
