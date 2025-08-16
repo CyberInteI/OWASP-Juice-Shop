@@ -13,7 +13,9 @@ Step 2: Pull Juice Shop Image
 sudo docker pull bkimminich/juice-shop  
 
 Step 3: Run Juice Shop  
-sudo docker run --rm -p 3000:3000 bkimminich/juice-shop  
+docker run --rm -p 3000:3000 -e NODE_ENV=unsafe bkimminich/juice-shop  
+#Using this command you are running juice shop in unsafe mode. It is necessary to activate all challenges.  
+#Precaustions: use kali linux in VM, use NAT instead of bridge, Disable file sharing.
 
 Step 4: Access in Browser  
 http://localhost:3000  
