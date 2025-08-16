@@ -5,21 +5,26 @@ First Let's Start with Installing OWASP Jucie Shop in Kali Linux.https://github.
 The most Safest Way is to Pull Docker Image.
 
 Step 1: Install Docker  
+```html
 sudo apt update  
 sudo apt install docker.io -y  
 sudo systemctl enable docker --now  
-
+```
 Step 2: Pull Juice Shop Image  
+```html
 sudo docker pull bkimminich/juice-shop  
-
+```
 Step 3: Run Juice Shop  
-docker run --rm -p 3000:3000 -e NODE_ENV=unsafe bkimminich/juice-shop  
+```html
+docker run --rm -p 3000:3000 -e NODE_ENV=unsafe bkimminich/juice-shop
+```
 #Using this command you are running juice shop in unsafe mode. It is necessary to activate all challenges.  
 #Precaustions: use kali linux in VM, use NAT instead of bridge, Disable file sharing.
 
 Step 4: Access in Browser  
+```html
 http://localhost:3000  
-
+```
 Once Done! Be ready to dive into the real life web vulnerability chanllenges........  
 You'll find all challenges category wise in this repository.  
 
@@ -32,5 +37,6 @@ Open Developer option in FireFox --> Go to Debugger.
 
 In Main.js file looke for 'Score' keyword and you'll find 'routerLink","/score-board'  
 Now we know the path to the scoreboard. We can use it as a URL parameter to find the hidden scoreboard in the OWASP Juice Shop.  
-
+```html
 http:localhost:3000/#/score-board  
+```
