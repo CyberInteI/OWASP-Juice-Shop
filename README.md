@@ -1,7 +1,7 @@
 # OWASP-Juice-Shop
 OWASP Juice Shop Walkthrough. If you stuck somewhere while solving OWASP Juice Shop Challenges then this Page is for you. You'll find here solution for OWASP Juice Shop Challenges.
 
-First Let's Start with Installing OWASP Jucie Shop in Kali Linux.https://github.com/CyberInteI/OWASP-Juice-Shop/blob/main/README.md
+First Let's Start with Installing OWASP Jucie Shop in Kali Linux.https://github.com/CyberInteI/OWASP-Juice-Shop/blob/main/README.md                                             
 The most Safest Way is to Pull Docker Image.
 
 Step 1: Install Docker
