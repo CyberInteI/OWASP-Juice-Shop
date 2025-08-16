@@ -20,3 +20,10 @@ http://localhost:3000
 
 Once Done! Be ready to dive into the real life web vulnerability chanllenges........  
 You'll find all challenges category wise in this repository.  
+
+Our First Challenge it to Find Score-Board Page of website where we'll get all Challenges list.  
+To find Score-Board page, We'll look the Keyword 'Score' in every file of website.  
+
+Open Developer option in FireFox --> Go to Debugger.  
+
+![My Images]
