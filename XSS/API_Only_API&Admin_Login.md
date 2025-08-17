@@ -1,8 +1,8 @@
 # Juice Shope: API-Only XSS & Admin Login
 
 ## Challenge Overview  
-Title: API-Only XSS
-Difficulty: 3/6
+Title: API-Only XSS  
+Difficulty: 3/6  
 Description: Perform a persisted XSS attack with <iframe src="javascript:alert(`xss`)"> without using the frontend application at all.  
 
 ## Tools Used:  
