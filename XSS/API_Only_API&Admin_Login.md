@@ -47,3 +47,6 @@ And the Description we want to Changes, and after PUT method add ID of product w
 
 And now you can see the Description is Changed.  
 ![My Images](../Images/description.png)  
+
+But Here I got a twist. While solving this API-Only XSS Challenge, Knowingly or Unknowingly I solved multiple challenges.  
+![My Images](../Images/mul.png)  
