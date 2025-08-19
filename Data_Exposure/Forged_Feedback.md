@@ -3,12 +3,12 @@
 ## Challenge Overview  
 Title: Forged Feedback
 Difficulty: 3/6  
-Category: Broken Access Control
+Category: Broken Access Control  
 Description: Post some feedback in another user's name.  
 
 ## Tools Used:  
-1. Web Browser: To create a Customer Feedback .  
-2. BurpSuite: To Craft the request.
+1. Web Browser: To create a Customer Feedback.    
+2. BurpSuite: To Craft the request.  
 
 ## Methodology and Solution
 
@@ -25,4 +25,4 @@ Original Request :
 Crafted Request: 
 ![My Images](../Images/Feed2.png)  
 
-And Done... Go and Look your Score Board.
+And Done... Go and Look your Score Board.  
