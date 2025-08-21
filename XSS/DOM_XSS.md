@@ -1,6 +1,6 @@
 Our First XSS challenge is DOM XSS. 
 
-![My Images](../Images/DOMXSS.png)  
+![My Images](../.Images/DOMXSS.png)  
 
 DOM-based XSS vulnerabilities usually arise when JavaScript takes data from an attacker-controllable source, such as the URL, and passes it to a sink that supports dynamic code execution, such as eval() or innerHTML. This enables attackers to execute malicious JavaScript, which typically allows them to hijack other users' accounts.  
 
@@ -9,7 +9,7 @@ We'll input the DOM-based-XSS payload in searchbar:
 ```html
 <iframe src="javascript:alert(`xss`)">X
 ```
-![My Images](../Images/DOMSolve.png)  
+![My Images](../.Images/DOMSolve.png)  
 
 Congratulations..........  
 our first Challenge is Solved.
