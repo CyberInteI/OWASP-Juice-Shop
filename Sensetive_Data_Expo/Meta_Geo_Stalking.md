@@ -18,7 +18,7 @@
 
 ### Step 1: Download John’s Photo  
 From the **Photo Wall** feature in Juice Shop, I located John’s uploaded image and saved it to my local system.  
-![My Image](../Images/mc1.png)
+![My Image](../.Images/mc1.png)
 ### Step 2: Extract Metadata Using ExifTool  
 I used the `exiftool` command to extract the photo’s metadata:  
 
@@ -26,7 +26,7 @@ I used the `exiftool` command to extract the photo’s metadata:
 exiftool johns-photo.jpg
 ```
 Among the extracted information, I found GPS coordinates embedded in the EXIF data.
-![My Image](../Images/mc2.png)
+![My Image](../.Images/mc2.png)
 ### Step 3: Analyze GPS Coordinates
 Using Google Maps, I searched for the location corresponding to those coordinates. The place pointed to the Daniel Boone National Forest, which is known for hiking activities.
 
@@ -40,5 +40,5 @@ I entered the answer as:
 ```html
 Daniel Boone National Forest
 ```
-![My Image](../Images/mc3.png)
+![My Image](../.Images/mc3.png)
 This matched the correct answer, allowing me to successfully reset John’s password and complete the challenge.
