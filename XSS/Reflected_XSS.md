@@ -19,7 +19,7 @@ But it didn't work. The reason was - search parameter is not reflected.
 
 ### Step 2: Look for Reflected parameter
 Then i started looking for reflected parameter. where user input will directly display on web page. while nevigating i found 'Tack order' page.
-![My Images](../Images/ReflectedXSS.png)  
+![My Images](../.Images/ReflectedXSS.png)  
 
 And here we got our Reflected parameter
 
@@ -30,7 +30,7 @@ Payload:
 localhost:3000/#/track-resulti?/new?id=<iframe src%3D"javascript:alert(`xss`)">
 ```
 And BOOOM.... Challenge Solved.  
-![My Images](../Images/ReflectedXSS1.png)
+![My Images](../.Images/ReflectedXSS1.png)
 ## Solution Explaination  
 Firstly we need to under why we  need only user input parameters which reflect as it is in web page.  
 
