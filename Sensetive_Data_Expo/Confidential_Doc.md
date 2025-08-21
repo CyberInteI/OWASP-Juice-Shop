@@ -35,7 +35,7 @@ http://localhost:3000/ftp/acquisitions.md
 ### Step 3: Retrieving the Document  
 Opening this file revealed the “confidential” content, and the challenge was instantly solved ✅  
 
-![Confidential Document Screenshot](../Images/FTP.png)  
+![Confidential Document Screenshot](../.Images/FTP.png)  
 
 ---
 
