@@ -13,7 +13,7 @@ Description: Put an additional product into another user's shopping basket.
 
 ### Step 1: capture basket request. 
 I first decided to capture some basket request and monitor them.  After speding some time on that all request and by taking help of juice-shop hint, I got this request.  
-![My Images](../Images/bas.png)
+![My Images](../.Images/bas.png)
 
 ### Step 2: Final Change  
 The challenge was to add items in another user's basket. As I solved previous basket challenge, I got to know that every user and their baskets are associated with IDs.  
