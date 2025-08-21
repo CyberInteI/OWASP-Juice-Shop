@@ -20,7 +20,7 @@ I started by navigating to the **User Registration** page on Juice Shop. Normall
 
 ### Step 2: Capture the Request in Burp Suite  
 With Burp Suite running, I submitted the registration form with placeholder values. The request was captured in **Proxy > HTTP history**.  
-![My Images](../Images/org.png)
+![My Images](../.Images/org.png)
 ### Step 3: Manipulate the Request  
 Then, I **removed the values** of the email and password fields directly from the request body, making them empty:  
 
@@ -38,9 +38,9 @@ Then, I **removed the values** of the email and password fields directly from th
   "securityAnswer": "test"
 }
 ```
-![My Image](../Images/edt.png)
+![My Image](../.Images/edt.png)
 ### Step 4: Forward the Request
 
 After modifying the request, I forwarded it to the server.
 Juice Shop accepted the registration with empty credentials, completing the challenge.
-![My Images](../Images/reg.png)
+![My Images](../.Images/reg.png)
