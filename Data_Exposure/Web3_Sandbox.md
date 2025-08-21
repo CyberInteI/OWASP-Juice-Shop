@@ -14,4 +14,4 @@ After few guesses I got the page to acccess Web2 Sandbox. Simply Open this URL:
 ```html
 http://localhost:3000/#/web3-sandbox
 ```
-![My Images](../Images/Web3.png)
+![My Images](../.Images/Web3.png)
