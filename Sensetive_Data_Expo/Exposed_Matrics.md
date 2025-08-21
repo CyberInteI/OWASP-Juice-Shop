@@ -17,6 +17,7 @@
 While exploring Juice Shop, I looked for unusual or undocumented paths that might expose sensitive resources. During this process, I also reviewed the **Prometheus documentation** and realized that its **metrics endpoint** is usually available at:  
 /matics  
 
+![Challenge Screenshot](../Images/prom.png)
 
 ### Step 1: Checking the Endpoint  
 I manually navigated to:  
@@ -32,7 +33,7 @@ The `/metrics` endpoint contained detailed system information and hints, which a
 
 ---
 
-![Challenge Screenshot](../Images/prom.png)  
+![Challenge Screenshot](../Images/matics.png)  
 
 ---
 
