@@ -13,7 +13,7 @@ Description: Perform a persisted XSS attack with <iframe src="javascript:alert(`
 
 ### Step 1: Capture Login Request.  
 Firstly, I captured a User Registration request in Burpsuite and Add a payload at the place of email.
-![My Images](../Images/cli_req.png)  
+![My Images](../.Images/cli_req.png)  
 
 Then submit the request.
 
@@ -24,7 +24,7 @@ Now login as admin and go to /administration section. Simply put the URL:
 http://localhost:3000/#/administration
 ```
 Here I Solved one more challenge i.e Administration Section Challenge. As I enter this section Challenge is solved.  
-![My Images](../Images/XXS-Pay.png)  
+![My Images](../.Images/XXS-Pay.png)  
 
 ## Explaination  
 In many web pages developer use input validation to protect website from attack like SQL and XSS. Our Challenge is to bypass this protection and perform persistant XSS attack.  
