@@ -1,19 +1,19 @@
-# 🥤 Juice Shop: Empty User Registration  
+#  Juice Shop: Empty User Registration  
 
-## 🔎 Challenge Overview  
+##  Challenge Overview  
 - **Title:** Empty User Registration  
 - **Difficulty:** 2/6  
 - **Description:** Register a user with an empty email and password.  
 
 ---
 
-## 🛠 Tools Used  
+##  Tools Used  
 - **Browser** – to access and fill the registration form  
 - **Burp Suite** – to intercept and modify the registration request  
 
 ---
 
-## 🧩 Methodology and Solution  
+##  Methodology and Solution  
 
 ### Step 1: Fill Out the Registration Form  
 I started by navigating to the **User Registration** page on Juice Shop. Normally, it requires a valid email, password, and security question.  
