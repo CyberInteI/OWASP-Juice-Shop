@@ -39,7 +39,7 @@ For this challenge, the goal was to log in as **Jim** by exploiting an injection
      ```
    - Here, the single quote `'` and comment operator `--` terminated the SQL query, bypassing password verification.
    - 
-   ![My Image](../.Images/jim.png)
+   ![My Image](../.Images/jim1.png)
 
 4. **Result**  
    - The login request was successfully bypassed, and I gained access to Jim’s account.  
