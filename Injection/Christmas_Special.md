@@ -33,14 +33,16 @@ This was a **4-star challenge**, which made it a bit tricky compared to the earl
 ### 3. Manipulating the Product ID  
 - In the intercepted request, I replaced the random product’s ID with the **Christmas Special product ID** (from the DB schema).  
 - After forwarding the modified request, I checked my basket…  
-- The **Christmas Special** product appeared, even though it was deleted/hidden from the normal UI.  
+- The **Christmas Special** product appeared, even though it was deleted/hidden from the normal UI.
+- 
 ![Christemas SS](../.Images/christmas1.png)
 ---
 
 ### 4. Completing the Challenge  
 - Finally, I proceeded to **checkout** with the Christmas Special in my basket.  
-- The order was placed successfully, and the challenge was solved.   
-![Christemas SS](../.Images/christmas2.png)
+- The order was placed successfully, and the challenge was solved.
+-   
+![Christemas SS](../.Images/Christmas2.png)
 ---
 
 ## Result  
